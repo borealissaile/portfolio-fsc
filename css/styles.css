@@ -70,6 +70,58 @@
   letter-spacing: 0.15rem;
 }
 
+/* Sobre Mim */
+.about-me-container {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.about-me-container > img {
+  width: 320px;
+  height: 320px;
+  margin-right: 50px;
+}
+
+.about-me-container > p {
+  color: white;
+  line-height: 2rem;
+}
+
+/* Habilidades */
+.skills-content {
+  margin-top: 108px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.skill-item {
+  background-color: #202020;
+  padding: 50px;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.skills-content .skill-item:nth-child(2) {
+  margin-left: 50px;
+  margin-right: 50px;
+}
+
+.skill-item span {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  color: white;
+  font-weight: 500;
+}
+
+.skill-item p {
+  color: white;
+  opacity: 75;
+}
+
 /* Utilities */
 .section-container {
   width: 100%;
